@@ -35,4 +35,4 @@ Certificates are auto-generated the first time you run this docker.
 NB: PlexConnect has to run as root in the container. This is because of its DNS service.
 
 **Source**: https://github.com/izznogooood/plexconnect-docker
-
+**Original Project**: https://github.com/iBaa/PlexConnect
