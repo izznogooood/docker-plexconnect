@@ -22,7 +22,7 @@ https://docs.docker.com/engine/admin/start-containers-automatically/
 **Description**
 
 This image is based on phusion/baseimage and size is compromised for full functionality.
-PlexConnect is stored outside the container making sure all changes including ***Plex login is persistent***.
+PlexConnect is stored outside the container making sure all changes are saved.
 
 * Plexconnect is pulled each time you start securing new updates
 * Certificates are auto-generated the first time you run this docker
