@@ -10,6 +10,18 @@
     -e USERID=xxxx -e GROUPID=xxxx \
     izzno/plexconnect
 
+For information on how to start/restart automatically please se:
+https://docs.docker.com/engine/admin/start-containers-automatically/
+
+----------
+
+**Tested on**:
+
+Linux
+QNAP
+Windows
+unRAID
+
 ----------
 
 This Docker uses port: 53, 80 & 443. Make sure they are not in use.
@@ -19,7 +31,7 @@ The user/group is for file-permissions only.
 
 **Description**
 
-This image is based on Ubuntu 16.04 and size is compromised for full functionality.
+This image is based on phusion/baseimage and size is compromised for full functionality.
 PlexConnect is stored outside the container making sure all changes including ***Plex login is persistent***.
 
 Plexconnect is pulled each time you start securing new updates if there are any.
@@ -30,9 +42,16 @@ https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
 Certificates are auto-generated the first time you run this docker.
 
 ----------
-**Security**
+**Security (Warning)ish**
 
 NB: PlexConnect has to run as root in the container. This is because of its DNS service.
 
 **Source**: https://github.com/izznogooood/plexconnect-docker \
 **Original Project**: https://github.com/iBaa/PlexConnect
+
+----------
+
+**Troubleshooting**:
+
+Bofore reporting a problem, please reboot your appleTV and/or restart you docker.
+Report issues: https://github.com/izznogooood/plexconnect-docker/issues
