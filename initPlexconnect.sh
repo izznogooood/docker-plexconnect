@@ -6,7 +6,7 @@ groupadd $GROUPID
 if [ ! -f /PlexConnect/ATVSettings.cfg ];
     then
         cd /
-        git clone https://github.com/iBaa/PlexConnect.git
+        git clone https://github.com/izznogooood/PlexConnect.git
     else
         cd /PlexConnect
         git pull
