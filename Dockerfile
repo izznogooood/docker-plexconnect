@@ -5,7 +5,6 @@ py-pillow \
 git \
 shadow \
 openssl \
-bash \
 && rm -fr /var/cache/apk/*
 VOLUME /PlexConnect
 ADD /initPlexconnect.sh /
