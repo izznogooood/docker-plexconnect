@@ -1,5 +1,11 @@
 FROM alpine
-RUN
+RUN apk -U add \
+python \
+py-pillow \
+git \
+shadow \
+openssl \
+&& rm -fr /var/cache/apk/*
 VOLUME /PlexConnect
 ADD /initPlexconnect.sh /
 CMD ['/initPlexconnect.sh']
