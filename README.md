@@ -55,5 +55,5 @@ NB: PlexConnect has to run as root in the container. This is because of its DNS 
 
 **Troubleshooting**:
 
-Bofore reporting a problem, please reboot your appleTV and/or restart you docker.
+Bofore reporting a problem, please reboot your appleTV and/or restart your container.
 Report issues: https://github.com/izznogooood/plexconnect-docker/issues
