@@ -1,7 +1,7 @@
 #!/bin/bash
 # Configure USER/GROUP
-useradd -m $USERID -u $USERID
-groupadd $GROUPID
+groupadd -g $GROUPID plexconnect
+useradd -m -u $USERID plexConnect
 #If this is the first time you run the docker, clone (get) PlexConnect, else update
 if [ ! -f /PlexConnect/ATVSettings.cfg ];
     then
@@ -19,6 +19,6 @@ if [ ! -f /PlexConnect/assets/certificates/trailers.pem ];
         mv trailers.* /PlexConnect/assets/certificates
 fi
 #Change Plexconnect owner
-chown -R $USERID:$GROUPID /PlexConnect
+chown -R plexconnect:plexconnect /PlexConnect
 #Start PlexConnect
 python /PlexConnect/PlexConnect.py
