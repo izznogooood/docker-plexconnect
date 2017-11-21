@@ -14,6 +14,7 @@ docker run -d \
 -e USERID=xxxx -e GROUPID=xxxx \
 izzno/plexconnect
 ```
+Docker Crash Course: https://anotherlinux.com/index.php/2017/11/14/docker-crash-course/
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
 
