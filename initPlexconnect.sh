@@ -1,5 +1,5 @@
 #!/bin/bash
-#If this is the first time you run the docker, clone (get) PlexConnect, else update
+#If this is the first time you run the container, clone (get) PlexConnect, else update
 if [ ! -f /PlexConnect/ATVSettings.cfg ];
     then
         cd /
