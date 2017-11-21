@@ -7,12 +7,12 @@
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
 ```
-    docker run -d \
-    --name plexconnect \
-    --network=host \
-    -v /path/to/store/plexconnect:/PlexConnect \
-    -e USERID=xxxx -e GROUPID=xxxx \
-    izzno/plexconnect
+docker run -d \
+--name plexconnect \
+--network=host \
+-v /path/to/store/plexconnect:/PlexConnect \
+-e USERID=xxxx -e GROUPID=xxxx \
+izzno/plexconnect
 ```
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
