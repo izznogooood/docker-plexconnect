@@ -7,14 +7,12 @@
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
 
-```
-docker run -d \
-  --name plexconnect \
-  --network=host \
-  -v /path/to/store/plexconnect:/PlexConnect \
-  -e USERID=xxxx -e GROUPID=xxxx \
-  izzno/plexconnect
-```
+    docker run -d \
+    --name plexconnect \
+    --network=host \
+    -v /path/to/store/plexconnect:/PlexConnect \
+    -e USERID=xxxx -e GROUPID=xxxx \
+    izzno/plexconnect
 
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
@@ -55,7 +53,7 @@ NB: PlexConnect has to run as root in the container. This is because of its DNS 
 
 **Troubleshooting**:
 
-Bofore reporting a problem, please reboot your appleTV and/or restart your container.
+Bofore reporting a problem, please reboot your appleTV and/or restart you docker.
 Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 
 ----------
