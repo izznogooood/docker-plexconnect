@@ -1,7 +1,4 @@
 #!/bin/bash
-# Configure USER/GROUP
-useradd -m $USERID -u $USERID
-groupadd $GROUPID
 #If this is the first time you run the docker, clone (get) PlexConnect, else update
 if [ ! -f /PlexConnect/ATVSettings.cfg ];
     then
