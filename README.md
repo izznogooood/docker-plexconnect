@@ -64,7 +64,7 @@ Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 
 ----------
 
-**izzno/plexconnect:dev**:
+**Development**:
 
 * izzno/plexconnect:dev   Alpine build, seems faster. If proven stable will merge to :latest.
 * izzno/plexconnect:armhf Need testing! Please report.
