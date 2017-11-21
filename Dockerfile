@@ -8,7 +8,7 @@ openssl \
 bash \
 && rm -fr /var/cache/apk/*
 VOLUME /PlexConnect
-ADD /initPlexconnect.sh /
+ADD /init /
 CMD ["/initPlexconnect.sh"]
 EXPOSE 80
 EXPOSE 443
