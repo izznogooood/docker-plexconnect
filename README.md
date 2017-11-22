@@ -6,14 +6,14 @@
 * This Docker uses port: 53, 80 & 443. Make sure they are not in use.
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
-
-    docker run -d \
-    --name plexconnect \
-    --network=host \
-    -v /path/to/store/plexconnect:/PlexConnect \
-    -e USERID=xxxx -e GROUPID=xxxx \
-    izzno/plexconnect
-
+```
+docker run -d \
+--name plexconnect \
+--network=host \
+-v /path/to/store/plexconnect:/PlexConnect \
+-e USERID=xxxx -e GROUPID=xxxx \
+izzno/plexconnect
+```
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
 
@@ -27,6 +27,7 @@ PlexConnect is stored outside the container making sure all changes are saved.
 * Plexconnect is pulled each time you start securing new updates
 * Certificates are auto-generated the first time you run this docker
 * All changes are persistant, ink plex login
+* For the best experiance, enable **Fanart** in General Appearance Settings
 
 For how to configure you appletv please see:
 https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
