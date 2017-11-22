@@ -6,7 +6,6 @@
 * This Docker uses port: 53, 80 & 443. Make sure they are not in use.
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
-
 ```
 docker run -d \
 --name plexconnect \
@@ -16,6 +15,8 @@ docker run -d \
 izzno/plexconnect
 ```
 
+----------
+Docker Crash Course: https://anotherlinux.com/index.php/2017/11/14/docker-crash-course/
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
 
@@ -23,7 +24,7 @@ https://docs.docker.com/engine/admin/start-containers-automatically/
 
 **Description**
 
-This image is based on phusion/baseimage and size is compromised for full functionality.
+This image is based on alpine making a tiny footprint. **(75mb)**
 PlexConnect is stored outside the container making sure all changes are saved.
 
 * Plexconnect is pulled each time you start securing new updates
@@ -64,10 +65,10 @@ Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 **Changelog**:
 
 11.21.2017  Fixed UID/GID settings
+11.22.2016  Switched to Alpine Base
 
 ----------
 
 **Development**:
 
-* izzno/plexconnect:dev   Alpine build, seems faster. If proven stable will merge to :latest.
 * Raspberry PI, under development.
