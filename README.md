@@ -6,6 +6,7 @@
 * This Docker uses port: 53, 80 & 443. Make sure they are not in use.
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
+
 ```
 docker run -d \
 --name plexconnect \
