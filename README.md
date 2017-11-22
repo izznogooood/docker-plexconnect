@@ -6,6 +6,7 @@
 * This Docker uses port: 53, 80 & 443. Make sure they are not in use.
 * The user/group is for file-permissions only.
 * "--name plexconnect" is optional.
+
 ```
 docker run -d \
 --name plexconnect \
@@ -14,6 +15,7 @@ docker run -d \
 -e USERID=xxxx -e GROUPID=xxxx \
 izzno/plexconnect
 ```
+
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
 
