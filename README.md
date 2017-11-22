@@ -14,6 +14,9 @@ docker run -d \
 -e USERID=xxxx -e GROUPID=xxxx \
 izzno/plexconnect
 ```
+
+----------
+
 Docker Crash Course: https://anotherlinux.com/index.php/2017/11/14/docker-crash-course/
 For information on how to start/restart automatically please se:
 https://docs.docker.com/engine/admin/start-containers-automatically/
@@ -63,10 +66,10 @@ Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 **Changelog**:
 
 11.21.2017  Fixed UID/GID settings
+11.22.2016  Switched to Alpine Base
 
 ----------
 
 **Development**:
 
-* izzno/plexconnect:dev   Alpine build, seems faster. If proven stable will merge to :latest.
 * Raspberry PI, under development.
