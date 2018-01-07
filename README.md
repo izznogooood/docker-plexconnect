@@ -66,8 +66,9 @@ Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 
 **Changelog**:
 
+01.07.2018  Tested on macOS
 11.21.2017  Fixed UID/GID settings
-11.22.2016  Switched to Alpine Base
+11.22.2017  Switched to Alpine Base
 
 ----------
 
