@@ -1,5 +1,6 @@
 ![enter image description here](https://camo.githubusercontent.com/3e9ba499fd311db91f02459bf0ff507620ca04b9/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f353530343239382f313231373733342f61326333643331362d323661652d313165332d396235322d3932373738343765326230642e706e67)
 
+**unRAID** users: https://hub.docker.com/r/izzno/unraid-plexconnect/
 
 **Usage**:
 
@@ -18,8 +19,12 @@ izzno/plexconnect
 
 ----------
 Docker Crash Course: https://anotherlinux.com/index.php/2017/11/14/docker-crash-course/
+
 For information on how to start/restart automatically please se:
+
 https://docs.docker.com/engine/admin/start-containers-automatically/
+or:
+https://anotherlinux.com/index.php/2017/12/13/systemd-units-crash-course/
 
 ----------
 
@@ -43,7 +48,7 @@ https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
 Linux \
 QNAP \
 Windows \
-unRAID
+macOS
 
 ---------
 
@@ -65,8 +70,9 @@ Report issues: https://github.com/izznogooood/plexconnect-docker/issues
 
 **Changelog**:
 
-11.21.2017  Fixed UID/GID settings
-11.22.2016  Switched to Alpine Base
+* 01.07.2018  Tested on macOS
+* 11.22.2017  Fixed UID/GID settings
+* 11.21.2017  Switched to Alpine Base
 
 ----------
 
