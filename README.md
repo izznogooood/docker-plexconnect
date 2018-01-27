@@ -40,6 +40,8 @@ PlexConnect is stored outside the container making sure all changes are saved.
 
 For how to configure you appletv please see:
 https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
+And
+https://github.com/iBaa/PlexConnect/wiki/Install-Guide-Certificate-via-Ethernet
 
 ----------
 
