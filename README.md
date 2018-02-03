@@ -38,10 +38,9 @@ PlexConnect is stored outside the container making sure all changes are saved.
 * All changes are persistant, ink plex login
 * For the best experiance, enable **Fanart** in General Appearance Settings
 
-For how to configure you appletv please see:
-https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
-And
-https://github.com/iBaa/PlexConnect/wiki/Install-Guide-Certificate-via-Ethernet
+For how to configure you appletv please see (Both!):
+* Step 1: https://github.com/iBaa/PlexConnect/wiki/Install-Guide-AppleTV-Wifi
+* Step 2: https://github.com/iBaa/PlexConnect/wiki/Install-Guide-Certificate-via-Ethernet
 
 ----------
 
