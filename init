@@ -22,5 +22,5 @@ fi
 echo "*** Setting userID and groupID ***"
 chown -R $USERID:$GROUPID /PlexConnect
 
-echo "Starting PlexConnect"
+echo "*** Starting PlexConnect ***"
 python /PlexConnect/PlexConnect.py
