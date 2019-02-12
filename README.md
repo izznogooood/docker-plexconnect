@@ -18,13 +18,9 @@ izzno/plexconnect
 ```
 
 ----------
-Docker Crash Course: https://anotherlinux.com/index.php/2017/11/14/docker-crash-course/
-
 For information on how to start/restart automatically please se:
 
 https://docs.docker.com/engine/admin/start-containers-automatically/
-or:
-https://anotherlinux.com/index.php/2017/12/13/systemd-units-crash-course/
 
 ----------
 
